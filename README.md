@@ -1,0 +1,2 @@
+# CompanyManagementSystem
+综合应用Web 应用编程开发中Servlet、JSP、JavaBean、JDBC等技术，结合后台数据库管理，设计并实现基于MVC设计模式的公司人员工资管理系统
