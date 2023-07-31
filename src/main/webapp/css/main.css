@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f1f2f7;
+}
+
+.top {
+    background-color: white;
+    width: 100%;
+    height: 65px;
+}
+
+.top .title {
+    float: left;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.top .title .text {
+    margin-top: 16px;
+    font-size: 25px;
+}
+
+.top .user {
+    float: right;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+}
+
+.top .user .username {
+    margin-top: 40px;
+    font-size: 15px;
+    width: 150px;
+    float: left;
+}
+
+.top .logout {
+    margin-top: 40px;
+    float: right;
+    font-size: 15px;
+}
+
+.top .logout a {
+    text-decoration: none;
+    color: #717171;
+}
+
+.top .logout a:hover {
+    color: #363a45;
+}
+
+.wrap {
+    width: 260px;
+    height: 100%;
+    background-color: #363a45;
+    float: left;
+}
+
+.wrap .header {
+    width: 100%;
+    height: 65px;
+    background-color: #44495a;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 65px;
+}
+
+.wrap .nav {
+    width: 250px;
+    margin: 10px 5px 0;
+}
+
+.wrap .list {
+    margin-bottom: 5px;
+}
+
+.wrap .list h2 {
+    position: relative;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    transition: .5s;
+}
+
+.wrap .list h2.on {
+    background-color: #3889d4;
+}
+
+.wrap .list i {
+    position: absolute;
+    right: 10px;
+    top: 16px;
+    border: 8px solid transparent;
+    border-left-color: #fff;
+    transform: rotate(0deg);
+    transform-origin: 1px 8px;
+    transition: .5s;
+}
+
+.warp .list a {
+    color: #717171;
+    text-decoration: none;
+}
+
+.warp .list a:hover {
+    color: #363a45;
+}
+
+.wrap .list i.on {
+    transform: rotate(90deg);
+}
+
+.wrap .hide {
+    overflow: hidden;
+    height: 0;
+    transition: .5s;
+}
+
+.wrap .list .hover {
+    color: #fff;
+}
+
+.wrap .hide h5 {
+    padding: 10px 0;
+    background-color: #282c3a;
+    text-align: center;
+    color: #99abb4;
+    border-bottom: #42495d;
+}
+
+.wrap .hide h5:hover {
+    color: #fff;
+}
+
+.main {
+    height: 100%;
+    padding-left: 260px;
+}
+
+.main .welcome {
+    padding-top: 75px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main .main-top {
+    width: 100%;
+    height: 30px;
+    padding-top: 8px;
+    background-color: #363a45;
+}
+
+.main .main-title {
+    padding-left: 10px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    color: #fff;
+}
+
+.main .list {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: white;
+    font-weight: 540;
+}
+
+.main .list tr {
+    display: table-row;
+    vertical-align: middle;
+    border-color: inherit;
+    color: #717171;
+    border-bottom: 1px solid #e9eaec;
+}
+
+.main .list thead {
+    color: #717171;
+    border-bottom: 1px solid #e9eaec;
+    line-height: 1.8;
+}
+
+.main .list th {
+    color: black;
+    border-bottom: 1px solid #e9eaec;
+    line-height: 1.8;
+    vertical-align: bottom;
+    padding: .75rem;
+}
+
+.main .list a{
+    text-decoration: none;
+    color: #717171;
+}
+
+.main .list a:hover{
+    color: black;
+}
+
+.main .list td {
+    display: table-cell;
+    vertical-align: inherit;
+    line-height: 1.8;
+    padding: .75rem;
+    text-align: center;
+}
+
+.main .form {
+    background-color: white;
+}
+
+.main .form form {
+    margin-left: 40px;
+}
+
+.main .form .form-name {
+    width: 100px;
+}
+
+.main .form .form-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main .form div input {
+    padding: 10px 10px;
+}
+
+.main .form p {
+    width: 100px;
+}
+
+.main .form .btn {
+    width: 100px;
+    border: 0;
+}
+
+.main .form .btn:hover {
+    background-color: lightgray;
+}

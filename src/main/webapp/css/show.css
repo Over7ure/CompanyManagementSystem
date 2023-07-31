@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f1f2f7;
+}
+
+.main {
+    height: 100%;
+}
+
+.main .welcome {
+    padding-top: 75px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main .main-top {
+    width: 100%;
+    height: 30px;
+    padding-top: 8px;
+    background-color: #363a45;
+}
+
+.main .main-title {
+    padding-left: 10px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    color: #fff;
+}
+
+.main .main-title a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main .list {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: white;
+    font-weight: 540;
+}
+
+.main .list tr {
+    display: table-row;
+    vertical-align: middle;
+    border-color: inherit;
+    color: #717171;
+    border-bottom: 1px solid #e9eaec;
+}
+
+.main .list thead {
+    color: #717171;
+    border-bottom: 1px solid #e9eaec;
+    line-height: 1.8;
+}
+
+.main .list th {
+    color: black;
+    border-bottom: 1px solid #e9eaec;
+    line-height: 1.8;
+    vertical-align: bottom;
+    padding: .75rem;
+}
+
+.main .list td {
+    display: table-cell;
+    vertical-align: inherit;
+    line-height: 1.8;
+    padding: .75rem;
+    text-align: center;
+}
+
+.main .form {
+    background-color: white;
+}
+
+.main .form form {
+    margin-left: 40px;
+}
+
+.main .form .form-name {
+    width: 100px;
+}
+
+.main .form .form-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main .form div input {
+    padding: 10px 10px;
+}
+
+.main .form p {
+    width: 100px;
+}
+
+.main .form .btn {
+    width: 100px;
+    border: 0;
+}
+
+.main .form .btn:hover {
+    background-color: lightgray;
+}
